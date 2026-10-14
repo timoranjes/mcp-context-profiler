@@ -1,0 +1,60 @@
+{
+  "numStartups": 212,
+  "installMethod": "native",
+  "autoUpdates": true,
+  "theme": "dark",
+  "firstStartTime": "2026-03-02T09:14:00.000Z",
+  "mcpServers": {
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "."
+      ],
+      "env": {}
+    }
+  },
+  "projects": {
+    "/home/dev/app": {
+      "allowedTools": [],
+      "history": [],
+      "mcpContextUris": [],
+      "hasTrustDialogAccepted": true,
+      "mcpServers": {
+        "github": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-github"
+          ],
+          "env": {
+            "GITHUB_PERSONAL_ACCESS_TOKEN": "<redacted>"
+          }
+        },
+        "ripgrep-search": {
+          "type": "stdio",
+          "command": "uvx",
+          "args": [
+            "ripgrep-mcp"
+          ],
+          "env": {}
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "lastCost": 0.42
+    },
+    "/home/dev/other": {
+      "mcpServers": {
+        "unrelated": {
+          "type": "stdio",
+          "command": "echo",
+          "args": []
+        }
+      }
+    }
+  }
+}

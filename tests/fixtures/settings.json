@@ -1,0 +1,20 @@
+{
+  "model": "sonnet",
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)"
+    ]
+  },
+  "mcpServers": {
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "."
+      ],
+      "env": {}
+    }
+  }
+}

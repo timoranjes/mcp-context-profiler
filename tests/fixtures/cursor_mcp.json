@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "."
+      ]
+    },
+    "ripgrep-search": {
+      "command": "uvx",
+      "args": [
+        "ripgrep-mcp"
+      ],
+      "disabled": true
+    }
+  }
+}

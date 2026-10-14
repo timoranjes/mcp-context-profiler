@@ -1,0 +1,55 @@
+{
+  "servers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "x"
+      ],
+      "tools": [
+        {
+          "name": "read_file",
+          "description": "Read the complete contents of a file from the file system as text. Handles various text encodings and returns an error for paths outside the allowed directories.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string",
+                "description": "Absolute or workspace-relative path of the file to read."
+              }
+            },
+            "required": [
+              "path"
+            ]
+          }
+        },
+        {
+          "name": "write_file",
+          "description": "Create a new file or completely overwrite an existing file with new content. Use with caution as it will overwrite existing files without warning.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string",
+                "description": "Path of the file to write."
+              },
+              "content": {
+                "type": "string",
+                "description": "Full text content to write to the file."
+              }
+            },
+            "required": [
+              "path",
+              "content"
+            ]
+          }
+        }
+      ]
+    },
+    "bare-entry-ignored-field": {
+      "command": "foo",
+      "futureField": {
+        "a": 1
+      }
+    }
+  }
+}
