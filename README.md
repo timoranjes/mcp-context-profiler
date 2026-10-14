@@ -1,5 +1,8 @@
 # MCP Context-Cost Profiler
 
+**Buy (one-time, HK$129):** https://buy.polar.sh/polar_cl_Ol9F7CfYSmjVrwjjvoqxwVbftaMuF2YXwatpT0AHbcs
+
+
 **The only cross-client MCP token auditor with a verified-accuracy mode.**
 
 Every MCP server you connect to an AI coding client adds its tool definitions (name, description, input schema) to the model's context. Anthropic engineers have reported tool definitions from a multi-server setup consuming around 55K tokens before any work starts. This tool audits Claude Code, Cursor, Claude Desktop and generic MCP configs in one pass, shows which servers and tools account for the cost, simulates three common fixes, and, when you opt in with `--verify`, checks its own estimates against Anthropic's `count_tokens` API so you can see the error instead of trusting it.
