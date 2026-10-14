@@ -173,3 +173,13 @@ It uses `pathlib` and avoids POSIX-only calls. The development and test machine 
 MIT, copyright Timoranjes. See LICENSE.txt.
 
 **Bundle (both tools, $29):** https://buy.polar.sh/polar_cl_APhmmzhYIlcAK8wpgidKSTaGC6lVRVLq1agZd3CPkaS
+
+## License keys (supporter tier)
+
+Supporter-tier purchases include a license key (TIMO_...). Validate it anytime:
+
+```
+python3 check_license.py TIMO_YOUR-KEY-HERE
+```
+
+The check runs against the public Polar validation endpoint (no auth, no personal data sent). A valid key = supporter status + update entitlements. The tools work fully without a key — the license funds development.
