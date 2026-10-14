@@ -1,6 +1,6 @@
 # MCP Context-Cost Profiler
 
-**Buy (one-time, HK$129):** https://buy.polar.sh/polar_cl_Ol9F7CfYSmjVrwjjvoqxwVbftaMuF2YXwatpT0AHbcs
+**Buy (one-time, $19):** https://buy.polar.sh/polar_cl_Ol9F7CfYSmjVrwjjvoqxwVbftaMuF2YXwatpT0AHbcs
 
 
 **The only cross-client MCP token auditor with a verified-accuracy mode.**
@@ -171,3 +171,5 @@ It uses `pathlib` and avoids POSIX-only calls. The development and test machine 
 ## License
 
 MIT, copyright Timoranjes. See LICENSE.txt.
+
+**Bundle (both tools, $29):** https://buy.polar.sh/polar_cl_APhmmzhYIlcAK8wpgidKSTaGC6lVRVLq1agZd3CPkaS
